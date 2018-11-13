@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InfoScreen" />
         <activity android:name=".Start" />
         <activity android:name=".RecipeLookingFilters" />
         <activity android:name=".AddingRecipe" />

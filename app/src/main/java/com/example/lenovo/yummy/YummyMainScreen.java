@@ -12,17 +12,7 @@ public class YummyMainScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yummy_main_screen);
-
-        Button btn_infoscreen = findViewById(R.id.btn_infoscreen);
-
-        btn_infoscreen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent info = new Intent(YummyMainScreen.this,InfoScreen.class);
-                startActivity(info);
-            }
-        });
+        
 
         Button btn_start = findViewById(R.id.btn_start);
 

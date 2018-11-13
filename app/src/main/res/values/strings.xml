@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Yummy</string>
+    <string name="app_name">Yummy Asia</string>
+    <string name="search_recipe">Search for a recipe</string>
+    <string name="app_desc_search">Press the search button for ideas for your dish. Choose type of the dish and basic ingredient to find the yummiest recipes.</string>
+    <string name="app_desc_random">Press the random button to get one of the craziest asian recipes. Will you dare?</string>
+    <string name="app_desc_add_recipe">Press the add button to share yummy recipes with others!</string>
 </resources>
