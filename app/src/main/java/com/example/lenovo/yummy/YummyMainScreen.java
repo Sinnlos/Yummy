@@ -1,8 +1,8 @@
 package com.example.lenovo.yummy;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -20,7 +20,7 @@ public class YummyMainScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent start = new Intent(YummyMainScreen.this, Start.class);
+                Intent start = new Intent(YummyMainScreen.this, HomePageActivity.class);
                 startActivity(start);
             }
         });
