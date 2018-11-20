@@ -4,12 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon_ramen"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/icon_ramen"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".YummyMainScreen">
+        <activity
+            android:name=".YummyMainScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,9 +21,11 @@
         <activity android:name=".Start" />
         <activity android:name=".RecipeLookingFilters" />
         <activity android:name=".AddingRecipe" />
-        <activity android:name=".DisplayRandomRecipe"></activity>
+        <activity android:name=".DisplayRandomRecipe" />
+        <activity
+            android:name=".HomePageActivity"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

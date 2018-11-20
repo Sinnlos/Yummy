@@ -1,7 +1,21 @@
 <resources>
     <string name="app_name">Yummy Asia</string>
+    <string name="welcome">Welcome to Yummy Asia</string>
+    <string name="button_start">Let\'s start</string>
     <string name="search_recipe">Search for a recipe</string>
     <string name="app_desc_search">Press the search button for ideas for your dish. Choose type of the dish and basic ingredient to find the yummiest recipes.</string>
     <string name="app_desc_random">Press the random button to get one of the craziest asian recipes. Will you dare?</string>
     <string name="app_desc_add_recipe">Press the add button to share yummy recipes with others!</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="tab_text_1">SEARCH RECIPE</string>
+    <string name="tab_text_2">RANDOM</string>
+    <string name="tab_text_3">ADD RECIPE</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="btn_add_recipe">Add recipe</string>
+    <string name="btn_random_recipe">Search again</string>
+    <string name="btn_search_recipe">Search recipe</string>
+    <string name="recipe_name">Name of the recipe</string>
+    <string name="recipe_description">Description</string>
 </resources>
