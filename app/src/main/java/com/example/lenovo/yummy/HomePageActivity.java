@@ -10,6 +10,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 public class HomePageActivity extends AppCompatActivity {
 
@@ -27,9 +31,11 @@ public class HomePageActivity extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+    Spinner typeSpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
@@ -48,10 +54,13 @@ public class HomePageActivity extends AppCompatActivity {
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
 
-
+        typeSpinner = (Spinner) findViewById(R.id.type_spinner);
 
     }
+    private void AddRecipe(){
 
+        String type = typeSpinner.getSelectedItem().toString();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -114,4 +123,6 @@ public class HomePageActivity extends AppCompatActivity {
             return 3;
         }
     }
+
+
 }
