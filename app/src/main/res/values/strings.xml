@@ -16,6 +16,71 @@
     <string name="btn_add_recipe">Add recipe</string>
     <string name="btn_random_recipe">Search again</string>
     <string name="btn_search_recipe">Search recipe</string>
-    <string name="recipe_name">Name of the recipe</string>
     <string name="recipe_description">Description</string>
+
+    <string name="recipe_name">Recipe name</string>
+    <array name="type_spinner">
+        <item>-Choose type-</item>
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Mocha</item>
+        <item>Caffè Americano</item>
+        <item>Cafe Zorro</item>
+    </array>
+
+    <array name="theme_spinner">
+        <item>-Choose theme-</item>
+        <item>Kookie</item>
+        <item>Hobi</item>
+        <item>Mochi</item>
+        <item>Jin</item>
+        <item>Joon</item>
+        <item>Tae</item>
+        <item>Yoongi</item>
+    </array>
+
+    <array name="main_ingr_spinner">
+        <item>-Choose main ingredient-</item>
+        <item>Hyungwon</item>
+        <item>Shownu</item>
+        <item>Wonho</item>
+        <item>Kihyun</item>
+        <item>Changkyun</item>
+        <item>Jooheon</item>
+        <item>Minhyuk</item>
+    </array>
+
+    <array name="add_ingr_spinner">
+        <item>-Choose additional ingredient-</item>
+        <item>Bam</item>
+        <item>Jackson</item>
+        <item>Mark</item>
+        <item>Yugyeom</item>
+        <item>Jaebum</item>
+        <item>Youngjae</item>
+        <item>Jinyoung</item>
+        <item>Youngjae</item>
+        <item>Jinyoung</item>
+    </array>
+
+    <array name="add2_ingr_spinner">
+        <item>-Choose additional ingredient-</item>
+        <item>Bam</item>
+        <item>Jackson</item>
+        <item>Mark</item>
+        <item>Yugyeom</item>
+        <item>Jaebum</item>
+        <item>Youngjae</item>
+        <item>Jinyoung</item>
+        <item>Youngjae</item>
+        <item>Jinyoung</item>
+    </array>
+
+    <string name="step1">Step 1</string>
+    <string name="step2">Step 2</string>
+    <string name="step3">Step 3</string>
+    <string name="step4">Step 4</string>
+    <string name="step5">Step 5</string>
+
+    <string name="steps">Write your recipe in 5 steps: </string>
 </resources>
