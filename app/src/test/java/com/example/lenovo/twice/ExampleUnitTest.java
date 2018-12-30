@@ -1,4 +1,4 @@
-package com.example.lenovo.yummy;
+package com.example.lenovo.twice;
 
 import org.junit.Test;
 

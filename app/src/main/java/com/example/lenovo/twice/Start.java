@@ -1,4 +1,4 @@
-package com.example.lenovo.yummy;
+package com.example.lenovo.twice;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "688031721043",
+    "firebase_url": "https://yummy-78f41.firebaseio.com",
+    "project_id": "yummy-78f41",
+    "storage_bucket": "yummy-78f41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688031721043:android:c65abe76cd5cdc01",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.twice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688031721043-r45mr42lhuvstv19j54dg3vpau1hcnp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.twice",
+            "certificate_hash": "57b102fdfa5fbf59b7c5fc6ad854311b1bfda331"
+          }
+        },
+        {
+          "client_id": "688031721043-0b2uc2rqqlaue6nno3ookalpn6mkoi8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_6D6mljdpehvbW9qt-F_enQ-P4OTW_KY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688031721043-0b2uc2rqqlaue6nno3ookalpn6mkoi8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
