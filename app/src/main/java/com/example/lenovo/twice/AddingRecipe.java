@@ -1,18 +1,21 @@
 package com.example.lenovo.twice;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.nio.channels.spi.SelectorProvider;
+import java.util.ArrayList;
+import java.util.List;
 
 public class AddingRecipe extends AppCompatActivity {
 
@@ -31,6 +34,8 @@ public class AddingRecipe extends AppCompatActivity {
 
     DatabaseReference recipeDB;
 
+    ListView listViewRecipes;
+    List<Recipe> recipeList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,14 +57,46 @@ public class AddingRecipe extends AppCompatActivity {
         step5 = (EditText) findViewById(R.id.step5);
         btn_add_recipeToDB = (Button) findViewById(R.id.btn_add_recipeToDB);
 
+        listViewRecipes = (ListView) findViewById(R.id.listViewRecipes);
+
+        recipeList = new ArrayList<>();
         btn_add_recipeToDB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 addRecipe();
+
+                Intent move = new Intent(AddingRecipe.this, DisplayAllRecipes.class);
+                startActivity(move);
             }
         });
     }
+
+ /*   @Override
+    protected void onStart() {
+        super.onStart();
+
+        recipeDB.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                recipeList.clear();
+                for(DataSnapshot recipeSnapshot : dataSnapshot.getChildren()){
+                    Recipe recipe = recipeSnapshot.getValue(Recipe.class);
+
+                    recipeList.add(recipe);
+                }
+
+                RecipeList adapter = new RecipeList(AddingRecipe.this, recipeList);
+                listViewRecipes.setAdapter(adapter);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+    } */
 
     private void addRecipe(){
         String recipeName = recipe_name.getText().toString().trim();

@@ -40,7 +40,7 @@
     </array>
 
     <array name="main_ingr_spinner">
-      <!--   <item>-Choose main ingredient-</item>  -->
+        <!--   <item>-Choose main ingredient-</item>  -->
         <item>Hyungwon</item>
         <item>Shownu</item>
         <item>Wonho</item>
@@ -51,7 +51,7 @@
     </array>
 
     <array name="add_ingr_spinner">
-      <!--  <item>-Choose additional ingredient-</item>  -->
+        <!--  <item>-Choose additional ingredient-</item>  -->
         <item>Bam</item>
         <item>Jackson</item>
         <item>Mark</item>
@@ -64,7 +64,7 @@
     </array>
 
     <array name="add2_ingr_spinner">
-      <!--  <item>-Choose additional ingredient-</item>  -->
+        <!--  <item>-Choose additional ingredient-</item>  -->
         <item>Bam</item>
         <item>Jackson</item>
         <item>Mark</item>
