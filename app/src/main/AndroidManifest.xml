@@ -26,7 +26,8 @@
             android:name=".HomePageActivity"
             android:label="@string/title_activity_home_page"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".DisplayAllRecipes"></activity>
+        <activity android:name=".DisplayAllRecipes" />
+        <activity android:name=".RecipeDetails"></activity>
     </application>
 
 </manifest>

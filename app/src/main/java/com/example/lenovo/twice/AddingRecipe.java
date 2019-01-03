@@ -118,7 +118,7 @@ public class AddingRecipe extends AppCompatActivity {
 
                 Recipe recipe = new Recipe(id, recipeName, recipeType, recipeTheme, mainIngr, addIngr, addIngr2, steps1, steps2, steps3, steps4, steps5);
 
-                recipeDB.child(id).setValue(recipe);
+                recipeDB.child("recipes").child(id).setValue(recipe);
 
 
                 Toast.makeText(this, "Recipe added", Toast.LENGTH_LONG).show();
