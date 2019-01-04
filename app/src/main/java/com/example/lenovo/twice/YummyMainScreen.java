@@ -40,7 +40,7 @@ public class YummyMainScreen extends AppCompatActivity {
         btn_go_to_search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent search = new Intent(YummyMainScreen.this, SearchRecipe.class);
+                Intent search = new Intent(YummyMainScreen.this, DisplayRandomRecipe.class);
                 startActivity(search);
             }
         });
