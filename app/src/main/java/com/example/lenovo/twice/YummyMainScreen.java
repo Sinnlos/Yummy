@@ -17,6 +17,8 @@ public class YummyMainScreen extends AppCompatActivity {
         Button btn_start = findViewById(R.id.btn_start);
 
         Button btn_toadd = findViewById(R.id.btn_toadd);
+        Button btn_go_to_search = findViewById(R.id.btn_go_to_search);
+
 
         btn_start.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,8 +32,16 @@ public class YummyMainScreen extends AppCompatActivity {
         btn_toadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent add = new Intent(YummyMainScreen.this, AddingRecipe.class);
+                Intent add = new Intent(YummyMainScreen.this, DisplayAllRecipes.class);
                 startActivity(add);
+            }
+        });
+
+        btn_go_to_search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent search = new Intent(YummyMainScreen.this, SearchRecipe.class);
+                startActivity(search);
             }
         });
 

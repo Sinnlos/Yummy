@@ -42,36 +42,7 @@ public class DisplayAllRecipes extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapter, View view, int position, long id) {
 
-               /* String variable;
-                recipeDB = FirebaseDatabase.getInstance().getReference().child("recipeTheme");
-                final Query query = recipeDB.orderByChild("recipeTheme");
-                query.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        int total = (int) dataSnapshot.getChildrenCount();
-                        int i = 0;
-
-                        for (DataSnapshot childSnapshot : dataSnapshot.getChildren()){
-                            String variable = childSnapshot.child("recipeTheme").getValue(String.class);
-
-                            Toast.makeText(this, variable, Toast.LENGTH_LONG).show();
-                        }
-
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                    }
-                });*/
-
-
-
                 String value = (String) adapter.getItemAtPosition(position);
-
-                //Recipe recipe = adapter.getItemIdAtPosition(position);
-
-                //recipeDB.child("recipes").child()
 
                 Recipe recipe = recipeList.get(position);
                 String name = recipe.getRecipeName();
@@ -95,15 +66,8 @@ public class DisplayAllRecipes extends AppCompatActivity {
                     move.putExtra("step4", step4);
                     move.putExtra("step5", step5);
                     startActivity(move);
-
-
             }
-
-
-
         });
-
-
 
     }
 

@@ -72,31 +72,6 @@ public class AddingRecipe extends AppCompatActivity {
         });
     }
 
- /*   @Override
-    protected void onStart() {
-        super.onStart();
-
-        recipeDB.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
-                recipeList.clear();
-                for(DataSnapshot recipeSnapshot : dataSnapshot.getChildren()){
-                    Recipe recipe = recipeSnapshot.getValue(Recipe.class);
-
-                    recipeList.add(recipe);
-                }
-
-                RecipeList adapter = new RecipeList(AddingRecipe.this, recipeList);
-                listViewRecipes.setAdapter(adapter);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-    } */
 
     private void addRecipe(){
         String recipeName = recipe_name.getText().toString().trim();
