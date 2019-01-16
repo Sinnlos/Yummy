@@ -52,10 +52,10 @@
             android:layout_marginBottom="10dp"
             android:ems="10"
             android:hint="@string/recipe_name"
+            android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textSize="17sp"
-            android:importantForAutofill="no"
-            tools:targetApi="o"/>
+            tools:targetApi="o" />
 
         <Spinner
             android:id="@+id/type_spinner"
@@ -129,11 +129,11 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:gravity="center_horizontal"
+            android:importantForAutofill="no"
             android:text="@string/steps"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:importantForAutofill="no"
-            tools:targetApi="o"/>
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/step1"
@@ -146,10 +146,10 @@
             android:layout_marginRight="8dp"
             android:ems="10"
             android:hint="@string/step1"
+            android:importantForAutofill="no"
             android:inputType="textLongMessage"
             android:textSize="15sp"
-            android:importantForAutofill="no"
-            tools:targetApi="o"/>
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/step2"
@@ -162,10 +162,10 @@
             android:layout_marginRight="8dp"
             android:ems="10"
             android:hint="@string/step2"
+            android:importantForAutofill="no"
             android:inputType="textLongMessage"
             android:textSize="15sp"
-            android:importantForAutofill="no"
-            tools:targetApi="o"/>
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/step3"
@@ -178,10 +178,10 @@
             android:layout_marginRight="8dp"
             android:ems="10"
             android:hint="@string/step3"
+            android:importantForAutofill="no"
             android:inputType="textLongMessage"
             android:textSize="15sp"
-            android:importantForAutofill="no"
-            tools:targetApi="o"/>
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/step4"
@@ -194,10 +194,10 @@
             android:layout_marginRight="8dp"
             android:ems="10"
             android:hint="@string/step4"
+            android:importantForAutofill="no"
             android:inputType="textLongMessage"
             android:textSize="15sp"
-            android:importantForAutofill="no"
-            tools:targetApi="o"/>
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/step5"
@@ -211,14 +211,14 @@
             android:layout_marginBottom="20dp"
             android:ems="10"
             android:hint="@string/step5"
+            android:importantForAutofill="no"
             android:inputType="textLongMessage"
             android:textSize="15sp"
-            android:importantForAutofill="no"
-            tools:targetApi="o"/>
+            tools:targetApi="o" />
 
         <Button
             android:id="@+id/btn_add_recipeToDB"
-            android:layout_width="351dp"
+            android:layout_width="match_parent"
             android:layout_height="49dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
@@ -226,6 +226,10 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/btn_add_recipe"
+            android:textColor="#FFD24F1B"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
