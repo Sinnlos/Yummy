@@ -24,7 +24,7 @@ public class YummyMainScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent start = new Intent(YummyMainScreen.this, HomePageActivity.class);
+                Intent start = new Intent(YummyMainScreen.this, Start.class);
                 startActivity(start);
             }
         });
