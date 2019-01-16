@@ -14,11 +14,14 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="btn_add_recipe">Add recipe</string>
-    <string name="btn_random_recipe">Search again</string>
+    <string name="btn_random_recipe">Random Recipe</string>
     <string name="btn_search_recipe">Search recipe</string>
     <string name="recipe_description">Description</string>
-
+    <string name="btn_look_for_a_recipe">Look for a recipe</string>
+    <string name="btn_display_all_recipes">Display all recipes</string>
     <string name="recipe_name">Recipe name</string>
+    <string name="bckg_img">Background Image</string>
+    <string name="search_by_name">Search recipe</string>
     <array name="type_spinner">
         <!-- <item>-Choose type-</item> -->
         <item>Cappuccino</item>
